@@ -4,4 +4,4 @@ Cloner ce repo, puis reproduire la Card telle que présentée dans l'image `cons
 
 - Opter pour une structure HTML adaptée dans le fichier `index.html`.
 - Appliquer les styles CSS sous le commentaire `/*Solution*/` dans le fichier `styles.css`.
-- Il est inutile de reproduire à la perfection les couleurs exactes, les arrondis ou autre détail décoratif.
+- Il est inutile de reproduire à la perfection les couleurs exactes, les arrondis ou autre détail décoratif. Laisser agir sa créativité.
