@@ -1,5 +1,5 @@
 # On masque les corrections
-/card/correction/**/**.*
+/correction/**/**.*
 
 # Node & Bower itignore
 node_modules/*
