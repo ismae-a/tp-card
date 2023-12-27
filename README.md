@@ -17,7 +17,7 @@ Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML e
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, à l'aide de Tailwind.
 
-Se servir de l'outil en ligne <https://play.tailwindcss.com/>
+Se servir de l'outil en ligne <https://play.tailwindcss.com/> et **placer la partie `@layer reset {...}` dans l'onglet `CSS` de Tailwind Play** pour appliquer les styles sur body.
 
 Liste des assets :
 
