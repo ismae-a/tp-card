@@ -2,7 +2,7 @@
 
 Cloner ce repo
 
-## Étape 1 : HTML / CSS vanilla
+## Version 1 : HTML / CSS vanilla
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML et CSS :
 
@@ -14,7 +14,7 @@ Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML e
   - la valeur de gouttière est de `12px` sur petit écran et `24px` sur grand écran,
   - et la couleur de fond de la card est `aliceblue`.
 
-## Étape 2 : Tailwind
+## Version 2 : Tailwind
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, à l'aide de Tailwind.
 
