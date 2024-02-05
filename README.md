@@ -2,14 +2,16 @@
 
 - Cloner ce repo,
 - Puis comme dirait *R.* : "next, next, next",
+- Votre livrable sera l'URL de votre repo sur Github ou Gitlab
 
 ## Consignes globales
 
-- Vous êtes censé réaliser ce TP sans aide extérieure, mais ce n'est pas grave si vous le faites&#8239;: dans ce cas, laissez un commentaire indiquant où (et pourquoi) vous avez cherché de l'aide.
-- Il est inutile de reproduire à la perfection les couleurs exactes, les arrondis ou autre détail décoratif&hellip; mais si ça vous intéresse&nbsp;:
+- Vous êtes censé réaliser ce TP **sans aide extérieure**, mais ce n'est pas grave si vous le faites&#8239;: dans ce cas, laissez un commentaire indiquant où (et pourquoi) vous avez cherché de l'aide.
+- Il est **inutile de reproduire à la perfection** les couleurs exactes, les arrondis ou autre détail décoratif&hellip; mais si ça vous intéresse&nbsp;:
   - la valeur de l'arrondi est de `16px`,
   - la valeur de gouttière est de `12px` sur petit écran et `24px` sur grand écran,
   - et la couleur de fond de la card est `aliceblue`.
+- Merci de **noter le temps** que vous avez passé pour réaliser votre TP.
 
 Deux versions de ce TP sont possibles :
 
