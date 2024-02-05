@@ -3,7 +3,7 @@
 - Cloner ce repo,
 - Puis comme dirait *R.* : "next, next, next",
 
-## Consignes globales pour les deux versions
+## Consignes globales
 
 - Vous êtes censé réaliser ce TP sans aide extérieure, mais ce n'est pas grave si vous le faites&#8239;: dans ce cas, laissez un commentaire indiquant où (et pourquoi) vous avez cherché de l'aide.
 - Il est inutile de reproduire à la perfection les couleurs exactes, les arrondis ou autre détail décoratif&hellip; mais si ça vous intéresse&nbsp;:
@@ -11,7 +11,12 @@
   - la valeur de gouttière est de `12px` sur petit écran et `24px` sur grand écran,
   - et la couleur de fond de la card est `aliceblue`.
 
-Consignes spécifiques sous l'image d'illustration&hellip;
+Deux versions de ce TP sont possibles :
+
+- Version 1 : HTML et CSS "vanilla"
+- Version 2 : Tailwind (si vous êtes chaud)
+
+Les consignes spécifiques pour chaque version sont disponibles sous l'image d'illustration&hellip;
 
 ![Consignes pour la card](tp/consignes.png "Consignes pour la card]").
 
@@ -23,7 +28,7 @@ Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML e
 - Appliquer les styles CSS sous le commentaire `/* Solution */` dans le fichier `styles.css`.
 - Les assets (images) sont dans le dossier `/images`.
 
-## Version 2 : Tailwind (si vous êtes chaud)
+## Version 2 : Tailwind
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, à l'aide de Tailwind.
 
