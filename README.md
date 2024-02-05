@@ -1,6 +1,7 @@
 # Travaux Pratiques : intégrer une "Card" en HTML / CSS
 
-Cloner ce repo, puis comme dirait R. : "next, next, next".
+- Cloner ce repo,
+- Puis comme dirait *R.* : "next, next, next",
 
 ## Consignes globales pour les deux versions
 
@@ -10,6 +11,10 @@ Cloner ce repo, puis comme dirait R. : "next, next, next".
   - la valeur de gouttière est de `12px` sur petit écran et `24px` sur grand écran,
   - et la couleur de fond de la card est `aliceblue`.
 
+Consignes spécifiques sous l'image d'illustration&hellip;
+
+![Consignes pour la card](tp/consignes.png "Consignes pour la card]").
+
 ## Version 1 : HTML / CSS vanilla
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML et CSS :
@@ -18,13 +23,13 @@ Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML e
 - Appliquer les styles CSS sous le commentaire `/* Solution */` dans le fichier `styles.css`.
 - Les assets (images) sont dans le dossier `/images`.
 
-## Version 2 : Tailwind
+## Version 2 : Tailwind (si vous êtes chaud)
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, à l'aide de Tailwind.
 
 Se servir de l'outil en ligne <https://play.tailwindcss.com/> et **placer la partie `@layer reset {...}` dans l'onglet `CSS` de Tailwind Play** pour appliquer les styles sur body.
 
-URL des assets (si vous passez par Tailwind Play) :
+URL des assets (uniquement nécessaires si vous passez par Tailwind Play) :
 
 - icone "homme" : <https://assets.codepen.io/9425/020-man-1.svg>
 - icone "femme" : <https://assets.codepen.io/9425/022-woman-1.svg>
