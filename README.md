@@ -24,7 +24,7 @@ On a combien de temps ?
 Deux versions de ce TP sont possibles **(vous choisissez la version que vous voulez)** (vous pouvez faire les deux pour comparer)&#8239;:
 
 - Version 1 : HTML et CSS "vanilla"
-- Version 2 : Tailwind (si vous êtes chaud)
+- Version 2 : Tailwind CSS
 
 Les consignes spécifiques pour chaque version sont disponibles sous l'image d'illustration&hellip;
 
