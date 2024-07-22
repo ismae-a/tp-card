@@ -20,7 +20,7 @@ Deux versions de ce TP sont possibles :
 
 Les consignes spécifiques pour chaque version sont disponibles sous l'image d'illustration&hellip;
 
-![Consignes pour la card](tp/consignes.png "Consignes pour la card]").
+![Consignes pour la card](tp/consignes.png "Consignes pour la card]")
 
 ## Version 1 : HTML / CSS vanilla
 
