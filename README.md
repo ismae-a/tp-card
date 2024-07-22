@@ -21,7 +21,7 @@ On a combien de temps ?
   - et la couleur de fond de la card est `aliceblue`.
 - Merci de **noter le temps** que tu as passé pour réaliser ton TP.
 
-Deux versions de ce TP sont possibles :
+Deux versions de ce TP sont possibles **(vous choisissez la version que vous voulez)** (vous pouvez faire les deux pour comparer)&#8239;:
 
 - Version 1 : HTML et CSS "vanilla"
 - Version 2 : Tailwind (si vous êtes chaud)
