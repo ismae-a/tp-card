@@ -26,17 +26,20 @@ Les consignes spécifiques pour chaque version sont disponibles sous l'image d'i
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML et CSS :
 
-- Opter pour une structure HTML adaptée dans le fichier `index.html`.
-- Appliquer les styles CSS sous le commentaire `/* Solution */` dans le fichier `styles.css`.
-- Les assets (images) sont dans le dossier `/images`.
+1. Opter pour une structure HTML adaptée dans le fichier `index.html`.
+2. Appliquer les styles CSS sous le commentaire `/* Ma solution */` dans le fichier `styles.css`.
+
+**Note :** Les assets (images) sont dans le dossier `/images`.
+
+**Note :** Merci de vous renseigner pour comprendre l'intérêt de `@layer` présent dans le fichier `styles.css`.
 
 ## Version 2 : Tailwind
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, à l'aide de Tailwind.
 
-Se servir de l'outil en ligne <https://play.tailwindcss.com/> et **placer la partie `@layer reset {...}` dans l'onglet `CSS` de Tailwind Play** pour appliquer les styles sur body.
+Se servir de l'outil en ligne <https://play.tailwindcss.com/> *(juste parce que ça va plus vite que d'installer plein d'outillage)* et **placer la partie `@layer reset {...}` dans l'onglet `CSS` de Tailwind Play** pour appliquer les styles sur `body`.
 
-URL des assets (uniquement nécessaires si vous passez par Tailwind Play) :
+URL des assets *(uniquement nécessaires si vous passez par Tailwind Play)* :
 
 - icone "homme" : <https://assets.codepen.io/9425/020-man-1.svg>
 - icone "femme" : <https://assets.codepen.io/9425/022-woman-1.svg>
