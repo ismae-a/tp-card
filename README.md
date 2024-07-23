@@ -20,6 +20,7 @@ On a combien de temps ?
   - la valeur de gouttière est de `12px` sur petit écran et `24px` sur grand écran,
   - et la couleur de fond de la card est `aliceblue`.
 - Merci de **noter le temps** que tu as passé pour réaliser ton TP.
+- Si tu vois des gros problèmes d'accessibilité, merci de les corriger ;)
 
 Deux versions de ce TP sont possibles **(vous choisissez la version que vous voulez)** (vous pouvez faire les deux pour comparer)&#8239;:
 
