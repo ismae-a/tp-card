@@ -2,7 +2,7 @@
 
 Faut faire quoi ?
 
-- Cloner ce repo,
+- **Forker** ce repo,
 - Puis comme dirait *R.* : "next, next, next",
 - Ton livrable sera l'URL de ton repo sur Github ou Gitlab
 
