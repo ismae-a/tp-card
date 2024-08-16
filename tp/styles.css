@@ -1,5 +1,65 @@
 /* Ma solution */
 
+/* CardS */
+.cards {
+  display: grid;
+  gap: 0.8rem;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+/* Card */
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: aliceblue;
+  border-radius: 16px;
+  gap: 0.8rem;
+  padding: 12px;
+  align-items: center;
+
+  @media (width >= 600px) {
+    grid-template-columns: minmax(0, 8rem) auto minmax(0, 3rem); /* pas sure de mon coup là... */
+    gap: 1.5rem;
+  }
+}
+
+.card-illus {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.card-contact {
+  grid-column: 1 / -1 ;
+
+  @media (width >= 600px) {
+    grid-column: 2;
+  }
+}
+
+.card-title {
+  margin-block-end: 0.8rem;
+
+  @media (width >= 600px) {
+    margin-block-end: 1rem;
+  }
+}
+
+.card-actions {
+  display: flex;
+  grid-row: 1;
+  grid-column: 2;
+  align-self: start;
+  justify-self: end;
+
+  @media (width >= 600px) {
+    grid-column: 3;
+    flex-direction: column;
+    align-self: center;
+  }
+}
+
+
 /* Reset */
 @layer reset {
   *,
