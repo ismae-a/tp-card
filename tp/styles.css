@@ -1,7 +1,7 @@
 /* Ma solution */
 
-/* CardS */
-.cards {
+/* Les cartes */
+.card-group {
   display: grid;
   gap: 0.8rem;
   max-width: 800px;
@@ -11,49 +11,55 @@
 /* Card */
 .card {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+      'top-left top-right'
+      'center center'
+      'bottom bottom';
   background-color: aliceblue;
   border-radius: 16px;
-  gap: 0.8rem;
+  gap: 12px;
   padding: 12px;
   align-items: center;
 
   @media (width >= 600px) {
-    grid-template-columns: minmax(0, 8rem) auto minmax(0, 3rem); /* pas sure de mon coup là... */
-    gap: 1.5rem;
+    grid-template-areas:
+      'left top-center right'
+      'left bottom-center right';
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
   }
 }
 
-.card-illus {
-  grid-column: 1;
-  grid-row: 1;
-}
 
-.card-contact {
-  grid-column: 1 / -1 ;
-
-  @media (width >= 600px) {
-    grid-column: 2;
+@media (width >= 600px) {
+    .card-illus {
+    grid-area: left;
   }
 }
 
 .card-title {
-  margin-block-end: 0.8rem;
+  grid-area: center;
 
   @media (width >= 600px) {
-    margin-block-end: 1rem;
+    grid-area : top-center;
+  }
+}
+
+.card-infos {
+  grid-area: bottom;
+
+  @media (width >= 600px) {
+    grid-area : bottom-center;
   }
 }
 
 .card-actions {
   display: flex;
-  grid-row: 1;
-  grid-column: 2;
   align-self: start;
   justify-self: end;
 
   @media (width >= 600px) {
-    grid-column: 3;
+    grid-area: right;
     flex-direction: column;
     align-self: center;
   }
